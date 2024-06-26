@@ -29,7 +29,7 @@ Created with ❤️ by [Data Professor](https://youtube.com/dataprofessor/).
 
 
 # Row A
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(3, gap = "small")
 with col1.container(height = 180):
     st.metric("Answer Accuracy", "70 °F", "1.2 °F")
 with col2.container(height = 180):
