@@ -32,8 +32,10 @@ Created with ❤️ by [Data Professor](https://youtube.com/dataprofessor/).
 col1, col2, col3 = st.columns(3)
 with col1.container(height = 180):
     st.metric("Answer Accuracy", "70 °F", "1.2 °F")
-col2.metric("Answer Relevancy", "9 mph", "-8%")
-col3.metric("Faithfulness", "86%", "4%")
+with col2.container(height = 180):
+    st.metric("Answer Relevancy", "9 mph", "-8%")
+with col1.container(height = 180):
+    st.metric("Faithfulness", "86%", "4%")
 
 # Row B
 seattle_weather = pd.read_csv('https://raw.githubusercontent.com/tvst/plost/master/data/seattle-weather.csv', parse_dates=['date'])
