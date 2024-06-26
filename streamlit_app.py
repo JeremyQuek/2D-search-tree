@@ -30,11 +30,11 @@ Created with ❤️ by [Data Professor](https://youtube.com/dataprofessor/).
 
 # Row A
 col1, col2, col3 = st.columns(3, gap = "small")
-with col1.container(height = 180):
+with col1.container(height = 120):
     st.metric("Answer Accuracy", "70 °F", "1.2 °F")
-with col2.container(height = 180):
+with col2.container(height = 120):
     st.metric("Answer Relevancy", "9 mph", "-8%")
-with col1.container(height = 180):
+with col1.container(height = 120):
     st.metric("Faithfulness", "86%", "4%")
 
 # Row B
