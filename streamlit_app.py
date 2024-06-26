@@ -29,7 +29,6 @@ Created with ❤️ by [Data Professor](https://youtube.com/dataprofessor/).
 
 
 # Row A
-st.markdown('### Metrics')
 col1, col2, col3 = st.columns(3)
 col1.metric("Answer Accuracy", "70 °F", "1.2 °F")
 col2.metric("Answer Relevancy", "9 mph", "-8%")
