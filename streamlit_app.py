@@ -30,7 +30,8 @@ Created with ❤️ by [Data Professor](https://youtube.com/dataprofessor/).
 
 # Row A
 col1, col2, col3 = st.columns(3)
-col1.metric("Answer Accuracy", "70 °F", "1.2 °F")
+with container(height = 180):
+    col1.metric("Answer Accuracy", "70 °F", "1.2 °F")
 col2.metric("Answer Relevancy", "9 mph", "-8%")
 col3.metric("Faithfulness", "86%", "4%")
 
